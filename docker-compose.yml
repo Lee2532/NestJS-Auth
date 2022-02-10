@@ -12,7 +12,3 @@ services:
     volumes:
       - ./src:/src
       - ./node_modules:/src/app/node_modules
-
-
-volumes:
-  data:
