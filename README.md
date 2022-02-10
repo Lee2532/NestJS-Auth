@@ -17,6 +17,5 @@ Redis를 사용하여 JWT에서 로그아웃기능을 구현
 - [ ] 권한 부여
 
 ```
-nest g controller [name]
 nest g resource [name]
 ```
