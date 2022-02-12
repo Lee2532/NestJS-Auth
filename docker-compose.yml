@@ -1,17 +1,17 @@
-version: "3"
+version: "3.9"
 
 services:
   app:
     build: .
-    command: npm run start:dev
+    command: yarn run start:dev
     container_name: nestjs
-
     ports:
       - "3000:3000"
     restart: always
     volumes:
-      - ./app/src:/src
-      - ./app/node_modules:/src/app/node_modules
+      - ./app/src:/app/src
+      - ./app/node_modules:/app/node_modules
+
 
   # redis:
   #   image: redis:alpine

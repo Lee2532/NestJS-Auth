@@ -29,7 +29,7 @@ TABLE NAME : user
 | 1 | idx           | right-aligned | 유저 idx |
 | 2 | username      | char(20)      | 유저 이름 |
 | 3 | nickname      | char(20)      | 닉네임 |
-| 4 | password      | char(50)      | 비밀번호 |
-| 5 | auth      | char(10)      | 접근 권한 |
+| 4 | password      | char(100)      | 비밀번호 |
+| 5 | auth      | char(20)      | 접근 권한 |
 | 6 | create_date      | datetime      | 최초 가입 날짜 |
 | 7 | update_date      | datetime      | 마지막 로그인 날짜 |
